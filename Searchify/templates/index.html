@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Book search Search MLH</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="../static/images/icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel= "stylesheet" type= "text/css" href= "../static/css/nav_style.css">
+
+</head>
+<body>
+	<nav>
+			<a href="index">INDEX</a>
+			<a href="search">SEARCH</a>
+	</nav>
+
+	<h1 style = "margin-left: 800px; font-size: 40px">Searchify</h1>
+
+	<div class="bg-contact2" style="background-image: url('../static/images/bg-01.jpg');">
+		<div class="container-contact2" >
+			
+		
+			<div class="wrap-contact2"  style="border: 4px solid black;height: auto;">
+				<form method = "POST" action = "/"  style="margin-top: 10px;">
+					{{ form.hidden_tag() }}
+					{{ form.filename.label (style="font-size:25px;")}}
+					{{ form.filename(style="border:2px solid black;width:300px;height:40px;") }}<br><br>
+
+
+					{{ form.index.label (style="font-size:25px;")}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					{{ form.index (style="border:2px solid black;width:300px;height:40px;")  }}<br><br>
+
+					{{ form.enter(style = "padding: 12px 28px;background-color: #4CAF50; /* Green */ border: none;
+  color: white;
+  width:180px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border:2px solid black;
+  border-radius:5px;") }}
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	
+</body>
+</html>

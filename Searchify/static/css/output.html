@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Book search Search MLH</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="../static/images/icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<div class="bg-contact2" style="background-image: url('../static/images/bg-01.jpg');">
+		<div class="container-contact2">
+			<div class="wrap-contact2"  style="border: 4px solid grey;">
+				<form method = "POST" action = "/">
+					{{ form.hidden_tag() }}
+					{{ form.filename.label }}
+					{{ form.filename }}
+					{{ form.index.label }}
+					{{ form.index }}
+					{{ form.enter }}
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	
+</body>
+</html>
