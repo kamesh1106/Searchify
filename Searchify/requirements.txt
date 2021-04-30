@@ -15,6 +15,6 @@ public==2019.4.13
 pymongo==3.9.0
 query-string==2019.4.13
 requests==2.22.0
-urllib3==1.25.7
+urllib3==1.25.8
 Werkzeug==0.16.0
 WTForms==2.2.1
